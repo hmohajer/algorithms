@@ -61,3 +61,20 @@ for(i = 0; i < x.length; i++){
     if(x[i]<0) x[i]="Turing";
 }
 console.log(x);
+
+
+
+
+// // var node = document.createElement("LI");                 // Create a <li> node
+// var textnode = document.createTextNode("Water yyyyyy u tyu ty u");         // Create a text node
+// var textnode1 = document.createTextNode("Water gggty u");         // Create a text node
+// // node.appendChild(textnode);                              // Append the text to <li>
+// // document.getElementById("myList").appendChild(node);  
+// document.body.appendChild(textnode);
+// document.body.appendChild(textnode1);
+// const tt = document.querySelector("#foo");
+// // tt.innerContent = "n"
+// console.log(tt);
+// tt.innerText = ""
+// console.log(tt);
+// tt.innerHTML = '';
