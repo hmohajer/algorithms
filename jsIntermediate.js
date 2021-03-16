@@ -88,7 +88,12 @@ while (lastNumber < 1000000){
 // 0 1 1 2 3 5 8 13 21...
 
 // 5. Remove the Negative
-//splice(index, 1);
+//    -define the array
+//    -loop through array 
+//    -if the item is less than 0
+//    -remove the item
+//    -go one index back 
+
 let arr3 = [1,2,-8,-3,7,1,3,-2];
 for(let index = 0; index < arr3.length; index++){
     if(arr3[index]< 0){
@@ -98,6 +103,32 @@ for(let index = 0; index < arr3.length; index++){
 }
 console.log(arr3);
 
-// 6. Communist Censorship
+//index =0 => 1 < 0 = false => [1,2,-8,-3,7,1,3,-2]
+//index =1 => 2 < 0 = false => [1,2,-8,-3,7,1,3,-2]
+//index =2 => -8 < 0 = true => [1,2,-3,7,1,3,-2] => index -1
+//index =2 => -3 < 0 = true => [1,2,7,1,3,-2] => index -1
+//...
+//index =5 => -2 < 0 = true => [1,2,7,1,3,-2] => index -1
 
-// Given the array of strings X = ['Man', 'I','Love','The','Matrix','Program'], replace every letter of the word Program with *, so the output would be ['Man', 'I','Love','The','Matrix','*******']. Then make your algorithm work for any word of your choice
+
+
+
+// 6. Communist Censorship
+//    -get the word that should be censored //censorWord
+//    -define the array
+//    -search the word in the array
+//    -check the word length and put * instead of each letter in that word
+//    -print the result
+
+// censorWord= "Man";
+censorWord= "Program";
+let arr4 = ['Man', 'I','Love','The','Matrix','Program']
+let index = arr4.indexOf(censorWord)
+let tmp = "";
+for(let i=0;i <= arr4[index].length-1;i++ ) tmp += "*";
+arr4[index]= tmp;
+console.log(arr4);
+
+// Program = 7 => index = 5 => ['Man', 'I','Love','The','Matrix','*******']
+// I = 1 => index = 1 => ['Man', '*','Love','The','Matrix','Program']
+// Man = 3 => index = 0 => ['***', 'I','Love','The','Matrix','Program']
