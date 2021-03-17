@@ -40,7 +40,12 @@ console.log(factorialize(5));
 // console.log(factorialize(10));
 // console.log(factorialize(20));
 
-//n = 5 => n>0 and n<170 = true => 5* 1 = 5
-//n = 5 => n>0 and n<170 = true => 4* 5 = 20
-//n = 5 => n>0 and n<170 = true => 3* 20 = 60
-//n = 5 => n>0 and n<170 = true => 2* 60 = 120
+//n = 5 => n>=0 and n<=170 = true => 5 != 0 = true => 5* 1 = 5
+// 4* 5 = 20
+// 3* 20 = 60
+// 2* 60 = 120
+
+
+//n = 0 => n>=0 and n<=170 = true => 5 != 0 = false => 1
+
+
