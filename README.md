@@ -1,20 +1,20 @@
 # algorithms
-each asignment goes to a new branch 
+
+each asignment goes to a new branch
 
 So far:
 jsBaisic
 jsIntermediate
-bubbleSort
 factorialize
-fibonacciNth
-game3s
+palindromeChecker
+thirdHighest
 largestInArrays
 longestWord
-magicSquares
-palindromeChecker
-searchReplace
-sumAllInRange
-sumPrimes
-thirdHighest
 titleCaseSentence
+sumAllInRange
+fibonacciNth
+game3s
+magicSquares
+searchReplace
 sumPrimes
+bubbleSort
