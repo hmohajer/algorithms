@@ -17,3 +17,4 @@ sumAllInRange
 sumPrimes
 thirdHighest
 titleCaseSentence
+sumPrimes
