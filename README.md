@@ -17,4 +17,5 @@ game3s
 magicSquares
 searchReplace
 sumPrimes
+SumOddFibonacci
 bubbleSort
