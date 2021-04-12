@@ -19,3 +19,4 @@ searchReplace
 sumPrimes
 SumOddFibonacci
 bubbleSort
+selectionSort
